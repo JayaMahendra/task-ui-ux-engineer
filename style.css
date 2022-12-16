@@ -1,0 +1,109 @@
+*{
+    font-family: 'Poppins';
+}
+
+.navbar{
+    background: white;
+}
+.hero{
+    margin-top: 100px;
+}
+
+.ColorSecondary{
+    color: #0B2852;
+}
+
+.ColorPrimary{
+    color: #0056D2;
+}
+
+.btn-primary{
+    color: white;
+    background: #0056D2;
+    border-radius: 10px;
+    border: none;
+    width: 147px;
+    height: 42px;
+}
+
+.btn-secondary{
+    margin-left: 25px;
+    color: #0056D2;
+    background: white;
+    border-color: #0056D2;
+    border-radius: 10px;
+    width: 147px;
+    height: 42px;
+    border: 2px solid;
+}
+.btn-secondary:hover {
+    background-color: #0056D2;
+    color: white;
+    border-color: #0056D2;
+  }
+
+.data-count{
+    border-radius: 10px;
+    margin-top: 40px;
+    background: #0056D2;
+    color: white;
+}
+
+.benefit{
+    margin-top: 100px;
+}
+
+.title{
+text-align: center;
+}
+
+.benefit .container{
+    margin-top: 60px;
+}
+
+.course{
+    margin-top: 100px;
+}
+
+.course .container{
+    margin-top: 60px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.btn-primary-more{
+    color: white;
+    background: #0056D2;
+    border-radius: 10px;
+    border: none;
+    width: 147px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.review .container{
+    margin-top: 60px;
+}
+
+.review{
+    margin-top: 100px;
+}
+
+.cta{
+    margin-top: 100px;
+}
+
+.footer{
+    margin-top: 100px;
+    color: white;
+    background: #0B2852;
+}
+
+.content-footer{
+    margin-top: 60px;
+}
