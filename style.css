@@ -107,3 +107,32 @@ text-align: center;
 .content-footer{
     margin-top: 60px;
 }
+
+.btn{
+    background: #ECECEC;
+    
+}
+.btn-submit{
+    border: none;
+    background: none;
+}
+
+.search{
+    background: #ECECEC;
+}
+
+.search-filter{
+    margin-top: 60px;
+}
+
+.course-course{
+    margin-top: 60px;
+}
+
+.hero-course{
+    margin-top: 40px;
+}
+
+.pagination{
+    margin-top: 20px;
+}

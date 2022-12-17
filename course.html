@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>Task</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/TaskLogo.svg" alt="" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="course.html">Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Teacher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner / hero -->
+    <div class="hero-course">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 align-self-center">
+                    <h1 class="ColorSecondary" style="font-weight: 600;">Course</h3>
+                        <p class="py-3">Perdalam skill mu bersama orang yang berpengalaman
+                            di bidangnya dan raihlah karir impianmu mulai dari sekarang!</p>
+                </div>
+                <div class="col-md-6 row justify-content-center ColorSecondary">
+                    <img src="img/manCourse.svg" alt="Banner" height="450px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- filter and search bar -->
+    <div class="search-filter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <a class="btn  dropdown-toggle" style="width:100%" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Filter Category
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">All</a></li>
+                            <li><a class="dropdown-item" href="#">Popular</a></li>
+                            <li><a class="dropdown-item" href="#">Latest</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <form class="d-flex">
+                        <input class="form-control me-2 search" type="search" placeholder="Search Course" aria-label="Search">
+                        <button class="btn-submit" type="submit">
+                            <img style="width: 40px;" src="img/search-icon.svg" alt="">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- course -->
+    <div class="course-course">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/uiux-banner.svg" style="height: 12rem;" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2" style="font-weight: 600;">Mastering UI/UX Design Figma
+                                From Zero to Hero</h5>
+                            <p class="card-text">350 Enroll</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/laravel.svg" style="height: 12rem;" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2" style="font-weight: 600;">Learn Fullstack Developer in Website
+                                using
+                                Laravel
+                            </h5>
+                            <p class="card-text">335 Enroll</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/flutter.svg" style="height: 12rem;" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2" style="font-weight: 600;">Building App Document Scanner with
+                                Flutter</h5>
+                            <p class="card-text">300 Enroll</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/react.svg" style="height: 12rem;" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2" style="font-weight: 600;">Deep Learn Using React JS for Your Working</h5>
+                            <p class="card-text">250 Enroll</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/hack.svg" style="height: 12rem;" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2" style="font-weight: 600;">The Important of IT Security In This Year Right Now
+                            </h5>
+                            <p class="card-text">235 Enroll</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/networking.svg" style="height: 12rem;" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2" style="font-weight: 600;">IT Networking For Manage Your Network Company</h5>
+                            <p class="card-text">200 Enroll</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/uiux-banner.svg" style="height: 12rem;" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2" style="font-weight: 600;">Mastering UI/UX Design Figma
+                                From Zero to Hero</h5>
+                            <p class="card-text">150 Enroll</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/laravel.svg" style="height: 12rem;" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2" style="font-weight: 600;">Learn Fullstack Developer in Website
+                                using
+                                Laravel
+                            </h5>
+                            <p class="card-text">135 Enroll</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/flutter.svg" style="height: 12rem;" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2" style="font-weight: 600;">Building App Document Scanner with
+                                Flutter</h5>
+                            <p class="card-text">100 Enroll</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- pagination -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <div class="pagination">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="content-footer">
+                        <img src="img/logoFooter.svg" style="height: 60px;" alt="task-logo">
+                        <p class="pt-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                            conubia
+                        </p>
+                        <p>2022</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="content-footer">
+                        <h5 style="font-weight: 600;">Course</h5>
+                        <p class="pt-3">UI/UX Design</p>
+                        <p>Flutter Developer</p>
+                        <p>Laravel Developer</p>
+                        <p>Java Developer</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="content-footer">
+                        <h5 style="font-weight: 600;">Teacher</h5>
+                        <p class="pt-3">Andika Sujono S.Kom</p>
+                        <p>Dewi Kartika S.Kom</p>
+                        <p>Fauzi Wahyu A.Md. Kom</p>
+                        <p>Tyas Diana A.Md. Kom</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="content-footer">
+                        <h5 style="font-weight: 600;">Office</h5>
+                        <p class="pt-3">PT. Tasking Indonesia Blitar, Jawa Timur</p>
+                        <p>jayamahendra490@gmail.com</p>
+                        <p>082337709390</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
