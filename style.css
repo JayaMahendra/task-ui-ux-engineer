@@ -136,3 +136,23 @@ text-align: center;
 .pagination{
     margin-top: 20px;
 }
+
+.count-course{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.detail{
+    margin-top: 100px;
+}
+
+.card-header{
+    background: #0B2852;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.cta .container{
+    margin-top: 60px;
+}
